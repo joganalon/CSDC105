@@ -1,130 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-	<li><a href="#contact">Contact</a></li>
-	<li><a href="#education"> Education </a></li>
-	<li><a href="#skills"> Skills </a></li>
-	<li><a href="#experiences"> Work Portfolio </a></li> 
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>My Resume</h1>
+      <nav>
+	<ul>
+          <li><a href="#about">Personal Information</a></li>
+          <li><a href="#education">Education History</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#references">Character References</a></li>
+          <li><a href="#experiences">Work Portfolio</a></li>
+	</ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about">
+	<h2>About Me</h2>
+	<section class="intro">
+	  <figure class="picture">
+            <img id="profile-img" src="https://joganalon.github.io/CSDC105/me.jpg" alt="Profile Picture">
+          </figure>
+	  
+	  <section class="text">
+	    <p>
+	      Hello, I am<br>
+	      <strong>Jonel C. Ganalon</strong><br>
+	      <b>BS Computer Science</b></p>
+	    <p>
+	      I am a second year student at Ateneo de Naga University.</p>
+	  </section>
+	  
+	  <section class="info">
+            <dl>
+              <dt>Birthdate</dt>
+              <dd><time datetime="2002-11-10">10 November 2002</time></dd>
+	      <dt>Contact Information</dt>
+	      <socials>
+		<dd><i>joganalon@gbox.adnu.ph</i></dd>
+		<dd><i>iamjonel7@gmail.com</i></dd>
+		<dd><i>+639092160413</i></dd>
+	      </socials>
+	      <address>
+		<dd>Jacob Putol St., Naga City</dd>
+		<dd>May-Ogob, Ocampo, Camarines Sur</dd>
+	      </address>
+            </dl>
+	  </section>
+	</section>
+      </section>
+      
+      <section id="education">
+	<h2>Educational History</h2>
+	<table>
+          <tr>
+            <th>Level</th>
+            <th>Institution</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>College</td>
+            <td>Ateneo de Naga University</td>
+            <td>2022-Present</td>
+          </tr>
+          <tr>
+            <td>High School</td>
+            <td>Siena College Tigaon</td>
+            <td>2015-2019</td>
+          </tr>
+          <tr>
+            <td>Elementary</td>
+            <td>May-Ogob Elementary School</td>
+            <td>2009-2015</td>
+          </tr>
+	</table>
+      </section>
+      
+      <section id="skills">
+	<h2>Skills</h2>
+	<h3>General</h3>
+	<ul>
+          <li>Problem Solving</li>
+          <li>Critical Thinking</li>
+          <li>Continuous Learning</li>
+          <li>Collaborative</li>
+	</ul>
+	
+	<h3>Technical</h3>
+	<ul>
+          <li>Software Technology
+            <ul>
+              <li>C++</li>
+              <li>Java</li>
+            </ul>
+          </li>
+          <li>Web Technology
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Figma</li>
+            </ul>
+          </li>
+          <li>Database
+            <ul>
+              <li>MySQL</li>
+            </ul>
+          </li>
+	</ul>
+      </section>
+      
+      <section id="references">
+	<h2>Character References</h2>
+	<ol>
+	  <li>Reference 1</li>
+	  <li>Reference 2</li>
+	</ol>
+      </section>
 
-  <main>
-    <section id="home">
-      <h1>Jonel C. Ganalon</h1>
-      <h2>BS Computer Science</h2>
-      <p> Hi, I am a second year student at Ateneo de Naga University.</p>
-      <img id="profile-img" src="https://joganalon.github.io/CSDC105/me.jpg" alt="Profile Picture">
-    </section>
-
-    <section id="address">
-      <h2>Address</h2>
-      <p><b>Current Address:</b> <i>Jacob Putol St., Naga City</i></p>
-      <p><b> Permanent Address:</b> <i>May-Ogob, Ocampo, Caamrines Sur </i></p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Information</h2>
-      <p><b> Email: </b> <i>joganalon@gbox.adnu.edu.ph</i></p>
-      <p><b> Phone: </b> <i>+639092160413</i></p>
-    </section>
-
-    <section id="education">
-      <h2>Educational History</h2>
-      <table>
-        <tr>
-          <th>Level</th>
-          <th>Institution</th>
-          <th>Year</th>
-        </tr>
-        <tr>
-          <td>College</td>
-          <td>Ateneo de Naga University</td>
-          <td>2022-Present</td>
-        </tr>
-        <tr>
-          <td>High School</td>
-          <td>Siena College Tigaon</td>
-          <td>2015-2019</td>
-        </tr>
-        <tr>
-          <td>Elementary</td>
-          <td>May-Ogob Elementary School</td>
-          <td>2009-2015</td>
-        </tr>
-      </table>
-    </section>
-
-    <section id="skills">
-      <h2> Skills </h2>
-      <h4> General </h4>
-      <ul>
-	<li> Problem Solving </li>
-	<li> Critical Thinking </li>
-	<li> Continuous Learning </li>
-	<li> Collaborative </li>
-      </ul>
-
-      <h4> Technical </h4>
-      <ul>
-	<li> Software Technology
-	  <ul>
-	    <li> C++ </li>
-	    <li> Java </li>
-	  </ul>
-	</li>
-      </ul>
-
-      <ul>
-	<li> Web Technology
-	  <ul>
-            <li> HTML </li>
-            <li> CSS </li>
-            <li> JavaScript </li>
-	    <li> Figma </li>
-	  </ul>
-	</li>
-      </ul>
-
-      <ul>
-	<li> Database
-	  <ul>
-	    <li> MySQL </li>
-	  </ul>
-	</li>
-      </ul>
-    </section>
-
-    <section id="references">
-      <h2> Character References </h2>
-      <ol>
-        <li>Reference 1</li>
-        <li>Reference 2</li>
-      </ol>
-    </section>
-
-    <section id="experiences">
-      <h2>Work Experience</h2>
-      <ul>
-        <li>Job 1</li>
-        <li>Job 2</li>
-      </ul>
-    </section>
-
-    <hr>
-
-    <footer>
-      <p>&copy; 2024 Jonel C. Ganalon</p>
-    </footer>
-  </main>
-</body>
+      <section id="experiences">
+	<h2>Work Experience</h2>
+	<ul>
+	  <li>Job 1</li>
+	  <li>Job 2</li>
+	</ul>
+      </section>
+      
+      <hr>
+      
+      <footer>
+	<p>&copy; 2024 Jonel C. Ganalon</p>
+      </footer>
+    </main>
+  </body>
 </html>
