@@ -7,7 +7,7 @@ This course focuses on teaching about the processes involved in building applica
 
 ## Instructor
 - **Professor**: Ma. Theresa Aguilar
-- **Contact**: [Email](mailto:mtaguilar@gbox.adnu.edu.ph)
+- **Contact**: mtaguilar@gbox.adnu.edu.ph
 
 ## About Me
 I am Jonel C. Ganalon. I am a second year BS Computer Science student who still have A LOT to learn. My gbox account: joganalon@gbox.adnu.edu.ph 
