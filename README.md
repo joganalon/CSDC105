@@ -5,9 +5,6 @@ Welcome to the repository for the activities and projects related to the **CSDC1
 ## Course Description
 This course focuses on teaching about the processes involved in building applications, emphasizing current trends that highly influence the IT industry. We learn and apply modern development methodologies while creating applications using the latest computing technologies. The course offers practical, hands-on instruction in designing and developing web-based applications, utilizing various programming languages and tools. We also gain knowledge about the structure of developing web applications and explore different software development approaches.
 
-## Contents
-- **Outputs**: Here you can find assignments and projects given throughout the semester along with any associated instructions or guidelines.
-
 ## Instructor
 - **Professor**: Ma. Theresa Aguilar
 - **Contact**: [Email](mailto:mtaguilar@gbox.adnu.edu.ph)
