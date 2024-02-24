@@ -3,7 +3,7 @@
 Welcome to the repository for the activities and projects related to the **CSDC105: Trends in Application Development** course, taught by Professor Ma. Theresa Aguilar in Ateneo de Naga University.
 
 ## Course Description
-In this course, we explore the latest trends, technologies, and methodologies in application development. From frontend frameworks to backend architectures, from mobile apps to cloud-native solutions, we dive deep into the ever-evolving landscape of software development.
+This course focuses on teaching about the processes involved in building applications, emphasizing current trends that highly influence the IT industry. We learn and apply modern development methodologies while creating applications using the latest computing technologies. The course offers practical, hands-on instruction in designing and developing web-based applications, utilizing various programming languages and tools. We also gain knowledge about the structure of developing web applications and explore different software development approaches. Additionally, a weekly challenge for students to practice coding and engage in creating small activities to reinforce their learning in software application development.
 
 ## Contents
 - **Assignments**: Here you can find assignments given throughout the semester along with any associated instructions or guidelines.
